@@ -1,0 +1,20 @@
+.paaa{
+    padding: 0;
+    margin: 0;
+     font-size: 0; /*remove white space between the text */
+    
+}
+.p{
+    display: inline-block;
+    padding: 20px;
+    background-color: darkgray;
+     font-size: 30px/*30px; restore the text size */
+   
+}
+.in{
+    width: 500px;
+    padding: 20px;
+    border: 10px solid red;
+    margin: auto;
+    display: block;
+}
