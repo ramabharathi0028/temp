@@ -1,0 +1,49 @@
+.box{
+    width: 300px;
+    padding: 20px;
+    border: 10px solid green;
+}
+.box2{
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin: 25px;
+  
+}
+.box4{
+    width: 200px;
+    border: 2px solid red;
+    padding: 25px;
+    margin: 25px;
+    margin-left: 20px;
+}
+.box3{
+    width: 600px;
+    padding: 20px;
+    border: 20px solid grey;
+    margin: auto;
+    box-sizing: content-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    margin: 30px;
+}
+.btn{
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.btn1{
+    padding: 20px;
+}
+.btn2{
+    padding: 30px;
+
+}
+.btn3{
+    padding: 10px;
+}
+.box4{
+    padding: 40px 10px 20px 50px;
+}
