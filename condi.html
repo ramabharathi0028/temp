@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        let num=Number(prompt("enter the number"));
+        if ( num>0){
+            console.log("The number is positive");
+        }
+        else if(num<0){
+            console.log("The number is negative");
+        }
+        else{
+            console.log("The number is Zero")
+        }
+
+        console.log("....que 2....");
+
+        let num1=Number(prompt("Enter the number"));
+        if(num1%2==0){
+            console.log("The number is Even");
+
+        }
+        else{
+            console.log("the number is odd")
+        }
+        console.log("..que3...");
+
+        let age=Number(prompt("Enter the age"));
+        if(age>18){
+            console.log("the person is elligible for vote");
+
+        }
+        else{
+            console.log("The prson is not elligible for vote")
+        }
+        console.log("..que4...");
+
+        let a=Number(prompt("Enter the first number"));
+        let b=Number(prompt("enter the second number"));
+
+        if(a>=b){
+            console.log("The a is greater");
+        }
+        else if(a=b){
+            console.log("both are same")
+        }
+        else{
+            console.log("the b is greater");
+        }
+
+        console.log(".....que5....");
+
+
+        let marks = Number(prompt("Enter your marks:"));
+        if (marks >= 90) {
+            console.log("Grade A");
+        } 
+        else if (marks >= 80) {
+            console.log("Grade B");
+        } 
+        else if (marks >= 70) {
+           console.log("Grade C");
+        } 
+        else if (marks >= 60) {
+           console.log("Grade D");
+        } 
+        else if (marks >= 50) {
+           console.log("Grade E");
+        } 
+        else {
+           console.log("Grade F - Fail");
+    }
+
+    console.log(".....que6....");
+
+
+    let d = Number(prompt("Enter first number:"));
+    let e = Number(prompt("Enter second number:"));
+    let f = Number(prompt("Enter third number:"));
+
+if (d >= e && d >= f) {
+    console.log(d + " is the largest.");
+} 
+else if (e >= d && e >= f) {
+    console.log(e + " is the largest.");
+} 
+else {
+    console.log(f + " is the largest.");
+}
+
+console.log(".....que7....");
+
+let year = Number(prompt("Enter a year:"));
+
+if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+    console.log(year + " is a leap year.");
+} 
+else {
+    console.log(year + " is not a leap year.");
+}
+
+console.log(".....que8....");
+
+let age1 = Number(prompt("Enter your age:"));
+
+if (age1 >= 18) {
+    console.log("You are eligible for a driving license.");
+} else {
+    console.log("You are not eligible for a driving license.");
+}
+console.log(".....que9....");
+
+let number = Number(prompt("Enter a number:"));
+
+if (number % 3 === 0 && number % 5 === 0) {
+    console.log(number + " is divisible by both 3 and 5.");
+} else {
+    console.log(number + " is not divisible by both 3 and 5.");
+}
+console.log(".....que10....");
+
+let number1 = Number(prompt("Enter the first number:"));
+let number2 = Number(prompt("Enter the second number:"));
+let operator = prompt("Enter an operator (+, -, *, /):");
+
+switch (operator) {
+    case "+":
+        console.log("Result = " + (number1 + number2));
+        break;
+
+    case "-":
+        console.log("Result = " + (number1 - number2));
+        break;
+
+    case "*":
+        console.log("Result = " + (number1 * number2));
+        break;
+
+    case "/":
+        if (num2 !== 0) {
+            console.log("Result = " + (number1 / number2));
+        } else {
+            console.log("Cannot divide by zero.");
+        }
+        break;
+
+    default:
+        console.log("Invalid operator.");
+}
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
