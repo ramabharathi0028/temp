@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class student{
+            constructor(rollno,name,mark){
+                this.rollno=rollno;
+                this.name=name;
+                this.mark=mark;
+            }
+            diplay(){
+                console.log(`Student roll no :${this.rollno} and Student Name:${this.name} and Mark${this.mark}`);
+            }
+            read(){
+                this.rollno=prompt("Enter the roll no");
+                this.name=prompt("enter the name");
+                this.mark=prompt("enter the mark");
+            }
+        }
+        let stud= new student(123,"run",45);
+        // stud.read();
+        stud.diplay();
+        console.log(".......task 2.......");
+
+        class employee{
+            constructor(empId,empname,deig,salary){
+                this.empId=empId;
+                this.empname=empname;
+                this.deig=deig;
+                this.salary=salary; 
+            }
+
+            view(){
+                console.log
+                (`Eployee Name:${this.empname} Employee Id:${this.empId} `)
+                console.log(`Designation:${this.deig} salary:${this.salary}`)
+            }
+            // reademp(){
+            //     this.empId=prompt("Enter the Employee Id");
+            //     this.empname=prompt("Enter the Employee Name");
+            //     this.deig=prompt("enter a designation");
+            //     this.salary=prompt("Enter a salary");
+                        
+            // }
+        }
+        let emp=new employee(12,"bala","manager",45000)
+        // let emp=new employee();
+        // emp.reademp();
+        emp.view();
+
+        console.log("........Task 4........");
+
+        class customer{
+            constructor(cId,cname,mobile,add){
+                this.cId=cId;
+                this.cname=cname;
+                this.mobile=mobile;
+                this.add=add;
+            }
+            viewcus(){
+                console.log(`customer name:${this.cname} customer ID:${this.cId}`);
+                console.log(`Mobile:${this.mobile} Address:${this.add}`);
+            }
+            // readcus(){
+            //     this.cId=prompt("Enter the customer Id");
+            //     this.cname=prompt("Enter the customer name");
+            //     this.mobile=prompt("enter a mobile number");
+            //     this.add=prompt("Enter a Address");
+            // }
+        }
+        let cus=new customer(12,"raja",987654321,"chennai");
+
+        // let cus=new customer();
+        // cus.readcus();
+        cus.viewcus();
+
+        console.log(".........Task 4..........")
+
+        class staff{
+            constructor(sId,sname,mobile,email,dept,add){
+                this.sId=sId;
+                this.sname=sname;
+                this.mobile=mobile;
+                this.email=email;
+                this.dept=dept;
+                this.add=add;
+            }
+
+            viewsta(){
+                console.log(`staff name:${this.sname} staff ID:${this.sId}`);
+                console.log(`email:${this.email} department:${this.dept}`);
+                console.log(`Mobile:${this.mobile} Address:${this.add}`);
+            }
+
+            readsta(){
+                this.sId=prompt("Enter the staff Id");
+                this.sname=prompt("Enter the staff name");
+                this.email=prompt("enter the email");
+                this.dept=prompt("Enter the department");
+                this.mobile=prompt("enter a mobile number");
+                this.add=prompt("Enter a Address");
+            }
+        }
+        let sta=new staff(12,"priya","priya2gamil.com","cse",986543321,"chennai");
+
+        sta.viewsta();
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
